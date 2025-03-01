@@ -4,7 +4,7 @@ from flask import Flask
 app = Flask(__name__)
 
 
-@app.route("/vijay")  #portnumber
+@app.route("/")  #portnumber
 
 def home():
     return "This is Flask Application "
